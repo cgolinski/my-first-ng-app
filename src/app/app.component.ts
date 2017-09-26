@@ -72,7 +72,7 @@ import { HeroService } from './hero.service';
 
 export class AppComponent implements OnInit {
   title = 'Angular Tour of Heroes';
-  heroes = Hero[];
+  heroes: Hero[];
   selectedHero: Hero;
 
   constructor(private heroService: HeroService) { }
